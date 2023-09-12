@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import { AppContext } from '../src/context/contextApi';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-    APP
-    </div>
+    <AppContext>
+        APP  
+    </AppContext>
+
   );
 }
 
