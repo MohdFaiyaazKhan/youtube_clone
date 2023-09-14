@@ -63,7 +63,7 @@ const VideoDetails = () => {
                                     <img
                                         className="h-full w-full object-cover"
                                         src={video?.author?.avatar[0]?.url}
-                                    />
+                                    alt="Avtar"/>
                                 </div>
                             </div>
                             <div className="flex flex-col ml-3">
